@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="mainpage.master.cs" Inherits="mainpage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+   <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+   <link rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="Contentstyle1" runat="server"></asp:ContentPlaceHolder>
+    <title>Luxury</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+     <header>
+      <a class="logo" href="index master.aspx"><img src="images/logo.jpg" alt="Logo" /></a>
+      <nav class="navigation">
+          
+        
+          <asp:ContentPlaceHolder ID="Contentheadernav" runat="server"></asp:ContentPlaceHolder>
+      </nav>
+         <asp:ContentPlaceHolder ID="Contentheader" runat="server"></asp:ContentPlaceHolder>
+    </header>
+        <asp:ContentPlaceHolder ID="contentbody" runat="server"></asp:ContentPlaceHolder>
+        <footer>
+      <div class="footer-content">
+        <h4>FEEDBACK</h4>
+        <p>
+          They should welcome their comments on this form about their service
+          the clients get from them and the ways they can improve They can
+          additionally give suggestions for any improvements
+        </p>
+        <div class="btn">
+          <a class="feedback" href="feedback master.aspx" target="blank"
+            >Give Feedback</a
+          >
+        </div>
+      </div>
+      <div class="social-icons">
+        <h4>CONNECT</h4>
+        <p class="texxxt">
+          Connect and follow along for behined the scenes content and to learn
+          more about lemon and the sea
+        </p>
+        <div class="icons">
+          <a href="https://www.facebook.com" target="blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com" target="blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com" target="blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://www.youtube.com" target="blank"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
+      </div>
+      <div class="lurx">
+        <h4>LUXURY</h4>
+        <p>
+          There is no doubt when you want to spend a vacation looking for a
+          suitable hotel for you , and one of the best hotels around the world
+        </p>
+        <div class="btn">
+          <a class="hommme" href="#">UP</a>
+        </div>
+      </div>
+    </footer>
+    <footer class="footer">
+      <div class="text">
+        <p>
+          &copy; Designed by Warriors Team 2022 Faculty of Computers and
+          Information - Kafrelsheikh University
+        </p>
+      </div>
+    </footer>
+        <asp:ContentPlaceHolder ID="script" runat="server"></asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

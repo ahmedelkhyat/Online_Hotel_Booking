@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/add.css" />
+    <title>Luxury</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="admin.html"
+        ><img src="images/logo.jpg" alt="Logo"
+      /></a>
+    </header>
+    <div class="wrapper">
+      <input type="checkbox" id="btn" hidden />
+      <label for="btn" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+      </label>
+      <nav id="sidebar">
+        <div class="title">Luxury</div>
+        <ul class="list-items">
+          <li>
+            <a href="clients.html"><i class="fa-solid fa-users"></i>Clients</a>
+          </li>
+          <li>
+            <a href="employees.html"
+              ><i class="fa-solid fa-user-tie"></i>Employees</a
+            >
+          </li>
+          <li>
+            <a href="feedback.html"
+              ><i class="fa-solid fa-comment"></i>Feedback</a
+            >
+          </li>
+          <div class="icons">
+            <a href="https://www.facebook.com" target="blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com" target="blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://twitter.com" target="blank"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="https://www.youtube.com" target="blank"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+        </ul>
+      </nav>
+    </div>
+    <section class="class">
+      <div class="container">
+        <div class="booking-now">
+          <div class="details">
+            <h2>Register</h2>
+            <div class="booking-form">
+              <form class="master-form">
+                <div class="booking-form">
+                  <label for="id">ID</label>
+                  <input
+                    type="number"
+                    placeholder="Enter ID"
+                    id="id"
+                    class="id"
+                    name="id"
+                    required
+                  />
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    placeholder="Enter Name"
+                    id="name"
+                    class="name"
+                    name="name"
+                    required
+                  />
+                  <label for="address">Address</label>
+                  <input
+                    type="text"
+                    placeholder="Enter Address"
+                    id="address"
+                    class="address"
+                    name="address"
+                    required
+                  />
+                  <label for="salary">Salary</label>
+                  <input
+                    type="number"
+                    placeholder="Enter Salary"
+                    id="salary"
+                    class="salary"
+                    name="salary"
+                    required
+                  />
+                  <label for="phone">Phone</label>
+                  <input
+                    type="number"
+                    placeholder="Enter Phone"
+                    id="phone"
+                    class="phone"
+                    name="phone"
+                    required
+                  />
+                  <input id="reset" class="reset" type="reset" value="Reset" />
+                  <input
+                    id="submit"
+                    class="submit"
+                    type="submit"
+                    value="Submit"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

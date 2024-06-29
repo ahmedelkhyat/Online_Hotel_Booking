@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="mPage.master.cs" Inherits="mPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+   
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderstyle" runat="server"></asp:ContentPlaceHolder>
+    <title>Luxury</title>
+    
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+     <header>
+      <a class="logo" href="admin master.aspx"><img src="images/logo.jpg" alt="Logo" /></a>
+
+         <asp:ContentPlaceHolder ID="ContentPlaceHeader" runat="server"></asp:ContentPlaceHolder>
+    </header>
+     
+         
+
+          <asp:ContentPlaceHolder ID="ContentPlacebody" runat="server"></asp:ContentPlaceHolder>
+            
+   
+    </form>
+</body>
+</html>
